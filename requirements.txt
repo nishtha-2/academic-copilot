@@ -1,0 +1,37 @@
+# Core numerical and ML libraries
+numpy>=1.26.4,<2.3
+scipy>=1.13.1,<1.16
+scikit-learn>=1.5.2,<1.7
+torch>=2.4,<2.7
+
+# Embeddings and reranking
+sentence-transformers>=3.2,<4
+transformers>=4.45,<5
+huggingface-hub>=0.26,<1
+tokenizers>=0.20,<0.22
+safetensors>=0.4.5,<1
+
+# Vector and lexical retrieval
+faiss-cpu>=1.9,<2
+rank-bm25==0.2.2
+
+# PDF processing and OCR
+PyMuPDF>=1.24,<2
+Pillow>=10.4,<12
+pytesseract==0.3.13
+
+# Local LLM
+ollama>=0.4,<1
+
+# Streamlit interface
+streamlit>=1.39,<2
+
+# Environment configuration
+python-dotenv>=1.0,<2
+
+# Data and utilities
+pandas>=2.2,<3
+PyYAML>=6,<7
+requests>=2.32,<3
+tqdm>=4.66,<5
+typing-extensions>=4.12,<5

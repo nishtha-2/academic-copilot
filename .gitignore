@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# FAISS index
+data/faiss/
+data/bm25/
+
+# Metadata (optional)
+# data/metadata/
+
+# Uploaded PDFs
+data/documents/
+
+# Extracted Images
+data/images/
+
+# Semantic cache
+data/cache/
+
+# Logs
+*.log
